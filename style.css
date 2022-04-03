@@ -46,7 +46,7 @@ font-weight: 900;
   .banner{
 
   background-image: url(imgs/bg-jelly-fish-para_outras_pags.png);
-  background-size: cover;
+  
 
   }
 
@@ -68,20 +68,22 @@ margin-left: 20%;
 
   }
 
-  .footer{
+ 
+.footer{
 
-background-color: #32B9CD;
+background-color: #32B9CD;;
 color: white;
+border-top: 3px solid  #E6005A;
 
-
-  }
+}
 
   .footer .container{
       display: flex;
-      height: 150px;
       align-items: center;
       justify-content: center;
-
+      height: 130px;
+     
+      
 }
 
 .card{
@@ -95,16 +97,19 @@ color: white;
     align-items: center;
     justify-content: center;
 
-
 }
 
-.banner .container.login{
+.banner .container.login {
 
 justify-content: center;
 
-
-
 }
+
+.banner .container.cadastro{
+  justify-content: center;
+  
+}
+
 
 .card h2{
 
@@ -129,15 +134,15 @@ margin-top: 8px;
 form input{
 
     outline: 3px solid #32B9CD;
-    margin-top: 8px;
-    padding: 8px;
+    margin-top: 10px;
+    padding: 10px;
     border: 0;
     border-radius: 10px;
 }
 
 form button{
 
-margin-top: 16px;
+margin-top: 20px;
 background-color: #E6005A;
 color: white;
 padding: 10px 15px;
@@ -147,8 +152,37 @@ font-size: 18px;
 border: 0;
 border-radius: 5px;
 cursor: pointer;
+}
+
+.missao-visao-valores{
+
+  height: 400px;
+  background-color: #eadcdc;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid #E6005A;
+  border-top: 3px solid  #E6005A;
+  
+}
+
+h3{
 
 
+color: #E6005A;
 
 
 }
+
+img{
+
+  width: 150px;
+  
+  }
+
+  .btn:hover{
+    background-color: #32B9CD;
+    
+    
+    }
